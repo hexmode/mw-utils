@@ -42,7 +42,7 @@ class backupDB extends Maintenance {
 
 	const progressIndicator = "/usr/bin/pv";
 	const defaultDateFormat  = "%Y-%m-%d";
-	const defaultCompressor = "/usr/bin/gzip";
+	const defaultCompressor = "/bin/gzip";
 	const defaultSuffix     = "gz";
 	const defaultOpts       = "--skip-opt";
 	const defaultCopts      = "-9";
